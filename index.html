@@ -5,26 +5,74 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aqua Solutions Plumbing | Mike Russo</title>
+  <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-  <link rel="stylesheet" href="/css/custom.css">
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.6.0/js/all.js"></script>
 </head>
 
 <body>
 
   <!--Hero-->
-  <section class="hero is-info is-medium">
+  <section class="hero is-info">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <i class="fas fa-tint fa-3x"></i>&nbsp;<b> Aqua  <span style="color: #ff3860">Solutions</span> Plumbing</b>
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <span class="navbar-item">
+                <a class="button is-danger is-inverted">
+                  <span>Ask Mike</span>
+                  <span class="icon">
+                    <i class="fas fa-question fa-spin"></i>
+                  </span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  
+    <!-- Hero content: will be in the middle -->
     <div class="hero-body">
-      <div class="container">
+      <div class="container has-text-centered">
         <h1 class="title">
-          Aqua Solutions Plumbing
+          Aqua  <span style="color: #ff3860">Solutions</span> Plumbing
         </h1>
         <h2 class="subtitle">
-          License # xxxxx | Serving the Greater NWA
+          Serving Greater NWA | Liscence # xxxxxx
         </h2>
       </div>
     </div>
-  </section>
+  
+    <!-- Hero footer: will stick at the bottom -->
+    <!-- <div class="hero-foot">
+      <nav class="tabs">
+        <div class="container">
+          <ul>
+            <li class="is-active"><a>Overview</a></li>
+            <li><a>Modifiers</a></li>
+            <li><a>Grid</a></li>
+            <li><a>Elements</a></li>
+            <li><a>Components</a></li>
+            <li><a>Layout</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>-->
+  </section> 
 
   <!--Three Column Selling Points-->
  
@@ -202,15 +250,10 @@
                 <textarea class="textarea" placeholder="Textarea"></textarea>
               </div>
             </div>
-
-            <div class="field is-grouped has-text-centered">
-              <div class="control">
-                <button class="button is-link is-large"><span class="icon">
+                <button class="button is-link is-large is-fullwidth"><span class="icon">
                     <i class="fas fa-envelope"></i>
                   </span>
                   <span>Submit</span></button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
