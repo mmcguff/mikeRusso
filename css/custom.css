@@ -1,0 +1,5 @@
+.has-bg-img {
+    background: url('../img/fixture.jpg') center center;
+    background-size: cover;
+    opacity: 0.7;
+}
