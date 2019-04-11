@@ -1,5 +1,16 @@
-.has-bg-img {
-    background: url('../img/fixture.jpg') center center;
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fixing.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
+    position: relative;
+  }
+  
+.navbar-item, .hero-text {
+    color: white !important;
+}
+
+.fa-tint{
+    color: #6EC5E3;
 }
